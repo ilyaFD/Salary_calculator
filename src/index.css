@@ -1,13 +1,57 @@
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+body, html {
+	height:100%;
+	margin: 0;
+	padding: 0;
+}
+* {
+	box-sizing: border-box;
+	outline: none;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root {
+  height: 100%;
+}
+
+/* MUI customization */
+.green-theme .Mui-checked, 
+.green-theme .MuiSvgIcon-root,
+.green-theme label, 
+.green-theme label.Mui-focused, 
+.green-theme input{
+    color: white !important;
+}
+.green-theme .MuiButton-root,
+.green-theme .MuiButton-root:hover,
+.green-theme .MuiButton-root:disabled {
+    background-color: white;
+    color: #77bea6;
+    box-shadow: none;
+}
+.green-theme .MuiButton-root:disabled {
+    opacity: 0.7;
+}
+.green-theme .field > div:before, .field > div:after  {
+    border-bottom: 1px solid white !important;
+}
+.green-theme .MuiSlider-root {
+  color: white;
+}
+.green-theme .MuiSlider-markLabel {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.green-theme .MuiSlider-thumbColorPrimary {
+  box-shadow: none !important;
+}
+/* MUI customization */

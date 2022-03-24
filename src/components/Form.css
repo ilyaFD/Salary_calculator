@@ -1,0 +1,25 @@
+.form {
+    background-color: #77bea6;
+    width: 100%;
+    max-width: 460px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 12px 48px rgb(26 33 52 / 11%);
+    display: flex;
+    flex-direction: column;
+    color: #666;
+    margin: 0 15px;
+    color: white;
+}
+.form > * {
+    margin-bottom: 20px !important;
+}
+.form > *:last-child {
+    margin-bottom: 0 !important;
+}
+.form__label {
+    font-size: 19px;
+    font-weight: 700;
+    display: block;
+    margin-bottom: 5px;
+}
